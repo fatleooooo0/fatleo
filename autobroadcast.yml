@@ -1,0 +1,22 @@
+#    ____   __    __  _______  ______     ______     _____
+#  / ___ \ | |   | | |__  __| /  __  \   |   _  \   /  __/
+# | |__| | | |   | |   | |   |  | |  |   |  | | /  |  /
+# | ___  | | \__/  |   | |   |  |_|  |   |  |_|  \ | |___
+# |_|  |_| \______/    |_|   \______/    |______/  \____/
+#
+
+#==============================#
+#
+#          AUTO BROADCAST
+#          100% configurable
+#
+#==============================#
+
+prefix: "&c&lCLAYS&f&lMC&7 »"
+
+messages:
+  - "%prefix% '&fIf you see a cheater, type in chat /report (cheater) (reason)"
+  - "%prefix% &fthe server is in &cbeta!&f if you see a bug report it on our &ediscord"
+  - "%prefix% &fYou want to support &eour server&f buy a vip on &cclaysmc.tebex.io"
+
+interval: 2 #in minutes
