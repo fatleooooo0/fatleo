@@ -1,0 +1,43 @@
+#
+#      _______    ____   ____    ___     _    _______   ________   ________
+#     |  __   \  |   |  |   |   |    \  | |  / _____/  /  _____/  /  _____/
+#     | |  \  /  |   |  |   |  | |\  \ | |  | /        |  |      |  |
+#     | |  /  |  |   |  |   |  | | \  \| /  | |   --   |  -----  |  -----
+#     | |  \  \  |   |  |   |  | |  \  |    | |  |_ |  |  ____/  |  ____/
+#     | |_/  /   \   \ /    /  | |  |  |    | |__| |   |  |_____ |  |_____
+#     |_____|     \________/   [_]  [__]    \______|   \_______/ \_______/
+#
+#___________________________#
+#
+#        BUNGEE.YML
+#          by fatleooooo0
+#___________________________#
+#
+name: ClaysChatMod2
+version: 1.0.0
+author: Fatleo
+main: me.claysmc.clayschatmod2.ClaysChatMod2
+api-version: 1.17
+
+description: .§4§l✗ §fnew chat moderation plugin by §cfatleooooo0 &4&l✗
+  
+  Dependencies
+depend: [BungeeCord]
+#_______________________________________#
+#                COMMANDS
+#      base command:
+#      /clayschat:alerts <enable/disable>
+#
+# Aliases:
+# -clayschat:alerts, chatalerts,
+#  Claysalerts
+#
+#_______________________________________#
+
+commands:
+  alerts:
+    description: Manage chat moderation alerts
+    usage: /clayschat:alerts <enable|disable>
+    aliases: [clayschat:alerts,chatalerts,claysalerts]
+    permission: clayschat.alerts
+
